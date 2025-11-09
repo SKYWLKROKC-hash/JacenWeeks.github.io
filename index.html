@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Jacen Weeks — Portfolio</title>
-  <meta name="description" content="Portfolio of Jacen Weeks: CAD, product design, and AMP Project renders." />
+  <meta name="description" content="Portfolio of Jacen Weeks: CAD, product design, and project renders." />
+  <meta name="theme-color" content="#cfe7df" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -14,32 +15,35 @@
       <ul>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
       </ul>
     </nav>
+
     <section class="hero wrap">
       <div class="hero-text">
         <h1>Hi, I’m <span class="accent">Jacen Weeks</span>.</h1>
-        <p>I design and model components, assemblies, and enclosures using CAD. This portfolio showcases some of my 3D modeling, rendering, and design projects.</p>
+        <p>I design and model components, assemblies, and enclosures using CAD. This portfolio showcases 3D modeling, rendering, and design projects.</p>
         <div class="hero-actions">
           <a class="btn" href="#projects">See Projects</a>
         </div>
       </div>
       <figure class="hero-img">
-        <img src="assets/images/hero.jpg" alt="Portfolio hero image" />
+        <!-- make sure this file exists: assets/images/hero.jpg -->
+        <img src="assets/images/hero.jpg" alt="Portfolio hero image">
       </figure>
     </section>
   </header>
 
   <main>
-    <!-- Projects Section -->
+    <!-- Projects -->
     <section id="projects" class="wrap section">
       <h2>Featured Projects</h2>
-      <div class="grid">
 
-        <!-- AMP Project Card -->
+      <div class="grid">
+        <!-- AMP Project Card (links to the subpage) -->
         <article class="card">
           <a href="projects/amp/">
+            <!-- cover image: assets/images/amp-01.png -->
             <img src="assets/images/amp-01.png" alt="AMP Project cover image">
           </a>
           <div class="card-body">
@@ -49,37 +53,25 @@
           </div>
         </article>
 
-        <!-- Add future project cards here -->
-        <!-- Example placeholder -->
-        <!--
-        <article class="card">
-          <a href="projects/nextproject/">
-            <img src="assets/images/nextproject-cover.jpg" alt="Next Project">
-          </a>
-          <div class="card-body">
-            <h3><a href="projects/nextproject/">Next Project</a></h3>
-            <p><strong>Focus:</strong> Description here</p>
-          </div>
-        </article>
-        -->
-
+        <!-- add more project cards here as you create them -->
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="wrap section">
       <h2>About</h2>
       <div class="about">
+        <!-- headshot file: assets/images/headshot.jpg -->
         <img class="headshot" src="assets/images/headshot.jpg" alt="Portrait of Jacen Weeks">
-        <p>I’m a CAD and product design enthusiast passionate about modeling precision parts and creating clean, organized assemblies. I focus on accurate geometry, detail-oriented rendering, and presenting designs that feel professional and intentional.</p>
+        <p>I’m a CAD and product design enthusiast focused on precise geometry, clean assemblies, and clear presentation. I enjoy turning ideas into models and models into polished visuals.</p>
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="wrap section">
       <h2>Contact</h2>
       <ul class="contact">
-        <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>Email: <a href="mailto:jacenkweeks@gmail.com">jacenkweeks@gmail.com</a></li>
         <li>GitHub: <a href="https://github.com/SKYWLKROKC-hash">SKYWLKROKC-hash</a></li>
       </ul>
     </section>
