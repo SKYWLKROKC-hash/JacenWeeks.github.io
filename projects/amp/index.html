@@ -1,11 +1,50 @@
-<!-- Replace the AMP card in your root index.html with this linked version -->
-<article class="card">
-  <a href="projects/amp/">
-    <img src="assets/images/amp-01.png" alt="AMP Project cover">
-  </a>
-  <div class="card-body">
-    <h3><a href="projects/amp/">AMP Project</a></h3>
-    <p><strong>Focus:</strong> component modeling, enclosure, and renders</p>
-    <p class="muted">Open to see the full gallery →</p>
-  </div>
-</article>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AMP Project — Jacen Weeks</title>
+  <!-- use the shared stylesheet from the root -->
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap">
+      <a class="brand" href="../../">JW</a>
+      <ul>
+        <li><a href="../../#projects">Projects</a></li>
+        <li><a href="../../#about">About</a></li>
+        <li><a href="../../#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap section">
+    <h1>AMP Project</h1>
+    <p class="muted">Concept modeling + rendering study. Modeled key components and enclosure; produced orthographic and perspective views.</p>
+
+    <div class="grid">
+      <!-- these paths walk up twice to /assets/images/ -->
+      <article class="card"><img src="../../assets/images/amp-01.png" alt="AMP render 1"></article>
+      <article class="card"><img src="../../assets/images/amp-02.png" alt="AMP render 2"></article>
+      <article class="card"><img src="../../assets/images/amp-03.png" alt="AMP render 3"></article>
+      <article class="card"><img src="../../assets/images/amp-04.png" alt="AMP render 4"></article>
+      <article class="card"><img src="../../assets/images/amp-05.png" alt="AMP render 5"></article>
+      <article class="card"><img src="../../assets/images/amp-06.png" alt="AMP render 6"></article>
+      <article class="card"><img src="../../assets/images/amp-07.png" alt="AMP render 7"></article>
+      <article class="card"><img src="../../assets/images/amp-08.png" alt="AMP render 8"></article>
+    </div>
+
+    <p style="margin-top:16px">
+      <a class="btn" href="../../">← Back to Portfolio</a>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>&copy; <span id="year"></span> Jacen Weeks.</small>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
