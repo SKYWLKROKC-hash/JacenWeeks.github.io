@@ -1,1 +1,3 @@
-Delete
+git rm -r Projects      # capital P
+git commit -m "Remove stray 'Projects' folder; use lowercase 'projects/'"
+git push origin main
