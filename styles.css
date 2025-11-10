@@ -112,34 +112,20 @@ body{
   .hero{grid-template-columns:1fr}
   .grid{grid-template-columns:1fr 1fr}
 }
-/* Resume button styling */
-.resume-button {
-  margin-top: 12px;
-}
-
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-.header .btn {
+/* Resume button styling (bottom section) */
+.btn {
   background: var(--accent);
   color: #fff;
   font-weight: 600;
   text-decoration: none;
   padding: 10px 14px;
   border-radius: 8px;
+  display: inline-block;
   transition: background 0.25s;
+  margin-top: 8px;
 }
 
-.header .btn:hover {
+.btn:hover {
   background: #0041c4;
 }
 
-@media (max-width: 600px){
-  .grid{grid-template-columns:1fr}
-  .about{grid-template-columns:1fr}
-}
